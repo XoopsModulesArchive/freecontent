@@ -1,0 +1,62 @@
+Version 3.2
+News Ticker shows randomly selected source and backend is now in DB.
+search function works again now
+Webdigest url link correction fixed for some unusual html sources
+
+Version 3.1
+Added News Ticker block showing magic news title in an attractive "Ticker Mode"
+default page is now set to Webdigest
+3.0 to 3.1 upgrade script supplied 
+minor bug fixes
+
+Version 3.0 Final
+Chinese GB2312-BIG5 encoding auto-conversion
+Magic News block shows only admin assigned webdigests
+numbers of bug fixes 
+
+Version 3.0RC
+Added Web Digest
+minor bug fixes.
+
+version 2.9.2
+more tolerant url rewrite
+minor bug fixes.
+
+Version 2.9.1
+url rewrite can be disabled
+external url is not wrapped
+"mailto:" links are preserved
+
+version 2.9.0
+
+Added url rewrite function for embedded html files
+security fixes
+
+Version 2.1.4
+
+Fixed runtime pass by reference call problem.
+Added alphabetically sorted links in block display.
+Code cleaning. 
+
+Version 2.1.3
+
+Fixed search and advanced search work only with the fist keyword bug
+
+Version 2.1.2
+
+Fixed Xoops comments bug.
+
+FreeContent 2.1.1 with SMARTY templates, Search and Xoops comments feature, XHTML compliance
+
+New in version 2.1.1: FreeContent is now compatible with register_global Off.
+
+For Xoops 2.x
+
+Usage:
+
+-Unzip (untar) all files to Xoops modules directory
+
+-Install as usual with Xoops administration panel
+
+point your browser to your_site/modules/freecontent/ to read the tutorial
+

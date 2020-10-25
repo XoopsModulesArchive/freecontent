@@ -1,0 +1,8 @@
+<ul>
+  <{if $block.image_url neq ''}>
+  <div align="center"><a href="<{$xoops_url}>/modules/freecontent/index.php?id=3"><img src="<{$block.image_url}>" width="120"></a></div>
+  <{/if}>
+  <{foreach item=freeContent from=$block.contents}>
+    <li><a href="<{$xoops_url}>/modules/freecontent/index.php?id=<{$freeContent.id}>"><{$freeContent.title}></a> (<{$freeContent.hits}>)</li>
+  <{/foreach}>
+</ul>

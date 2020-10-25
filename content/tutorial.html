@@ -1,0 +1,74 @@
+<html>
+
+<head>
+<title>Tutorial FreeContent by wjue</title>
+</head >
+
+<body bgcolor=FFFFFF text=000000>
+
+<br>
+<h3><b><u>FreeContent 3.0 Webdigest Tutorial</u></b></h3>
+<p><br>
+  Using FreeContent to display your own html or php pages in Xoops. Freecontent 
+  features cache, search and Xoops native comments. The new wrapping method is 
+  XHTML compliant, but you can turn it off via the config.php file if you prefer 
+  the old method (set $fc_xhtml_compliance = 'no').</p>
+<p>FreeContent 3.0 allows you not only to present easily a variety of contents 
+  but also to make concept/topic oriented WebIntelligence, to organize community 
+  discussion with always up to date and fresh content and information.<br>
+</p>
+<p><small>(For latest version of Freecontent go to: <a href = 'http://www.guanxicrm.com'>http://www.guanxicrm.com</a>)</small></p>
+<p>Freecontent's URL Rewriting function allows subsequent local urls (relatives) 
+  to be also showed in Xoops, this feature can be disabled by settings in config.php<> 
+<table width="100%" border="0" cellspacing="5">
+  <tr> 
+    <td width="40px" valign="top">Step1</td>
+    <td >upload your html or php content pages under the default content root dir (Xoops_root_dir/modules/freecontent/content). <br>
+    your can change the default content root dir setting in config.php file (variable $fc_content_root_url)     
+      directory </td>
+  </tr>
+  <tr> 
+    <td width="40px" valign="top">Step2</td>
+    <td><p>go to Xoops admin panel &gt; freecontent admin &gt; List Contents </p>
+      <p>Provide appropriate path info for adding a new content connection. </p>
+      <p>give a Title -&gt; this will be the name of menu item in the Freecontent Block</p>
+      <p>give a path-&gt; this is where to find your html(php) file, for example, 
+        this tutorial file is in tutorial.html (relative to the default content 
+        root dir), you can also specify a full qualified url (ex. http://www.wjue.org) 
+        for Webdigest mode view.</p>
+      <p>give a detailed comment (optional but recommended, search will go here!) 
+        -&gt; this is purely for your convenience.</p>
+      <p>Select the "Hidden?&quot; option if you do not want the item to be showed 
+        in FreeContent's Menu Block (only for local file entries)<br>
+        Select the &quot;Digest?&quot; option if you entered a full qualified 
+        url to webdigest.</p>
+      <p>Set offset to n to filter first n entries in your webdigest (most commercial 
+        pages' first links are ads)</p>
+      <p>You can set a regular expression to filter further unwanted contents.</p>
+      </td>
+  </tr>
+  <tr> 
+    <td width="40px" valign="top">Step3</td>
+    <td>Give access rights of FreeContent module and blocks to your users</td>
+  </tr>
+  <tr> 
+    <td width="40px" valign="top">Step4</td>
+    <td>Show the FreeContent Block (make FreeContent Block Visible), show MagicNews 
+      block if you wish.</td>
+  </tr>
+  <tr> 
+    <td>Step5</td>
+    <td>Click on menu items in your Freecontent Block and enjoy your work !</td>
+  </tr>
+  <tr>
+    <td width="40px" valign="top">Step6</td>
+    <td>Enjoy and report bugs and suggestions to<br>
+      <a href="http://www.wjue.org">www.wjue.org</a> (Chinese) and <a href =http://www.guanxicrm.com   >www.guanxiCRM.com</a> 
+      (English)</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+Update from 3.0 to 3.2
+
+- upload all files to your server
+- point your browser to http://yoursite/modules/freecontent/upgrade3.0_to_3.2.php
+- update the module with Xoops Admin panel
+
+Update from previous version (2.x.x -> 3.x)
+
+- Uninstall your old version
+
+- Upload all files of the Freecontent 3.0 package
+
+- Install with Xoops administration panel
+
+Update from 3.1 to 3.2
+
+- upload all files to your server
+- update the module with Xoops Admin panel

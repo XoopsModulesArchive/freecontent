@@ -1,0 +1,51 @@
+<!--Begin FreeContent Digest  http://www.guanxiCRM.com-->
+<{if $freecontent}>
+<h2><{$freecontent.title}></h2>
+<table>
+  <tr>
+    <td rowspan="2" valign="top" width="160"> <table>
+        <{foreach from=$freecontent.src item=src}>
+        <tr>
+          <td>
+            <{$src}>
+          </td>
+        </tr>
+        <{/foreach}>
+      </table></td>
+    <td valign="top">
+      <{$freecontent.digest}>
+      <br>
+      <{$freecontent.current}>
+    </td>
+  </tr>
+  <tr>
+    <td valign="bottom">&nbsp; </td>
+  </tr>
+  <tr>
+    <td valign="top" align="right">
+      <{$freecontent.prompt}>
+    </td>
+    <td valign="bottom"><{$freecontent.form}>
+     </td>
+  </tr>
+</table>
+<{/if}>
+<{$fcContent}>
+<div style="text-align: center; padding: 3px;
+margin:3px;">
+<{$commentsnav}>
+<{$lang_notice}>
+</div>
+
+<div style="margin:3px; padding: 3px;">
+<!-- start comments loop -->
+<{if $comment_mode == "flat"}>
+<{include file="db:system_comments_flat.html"}>
+<{elseif $comment_mode == "thread"}>
+<{include file="db:system_comments_thread.html"}>
+<{elseif $comment_mode == "nest"}>
+<{include file="db:system_comments_nest.html"}>
+<{/if}>
+<!-- end comments loop -->
+</div>
+<!-- End FreeContent Digest -->

@@ -1,0 +1,6 @@
+<ul>
+  <li><a href="<{$xoops_url}>/modules/freecontent/index.php?op=di">Webdigest</a></li>
+  <{foreach item=freeContent from=$block.contents}>
+    <li><a href="<{$xoops_url}>/modules/freecontent/index.php?id=<{$freeContent.id}>"><{$freeContent.title}></a> (<{$freeContent.hits}>)</li>
+  <{/foreach}>
+</ul>

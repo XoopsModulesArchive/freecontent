@@ -1,0 +1,34 @@
+<?php
+
+// ------------------------------------------------------------------------- //
+//                           FreeContent for Xoops                           //
+//                      Version:  2.00 (for 2.01 and up)                     //
+// ------------------------------------------------------------------------- //
+// Author: Wang Jue (alias wjue)                                             //
+// Purpose: Module to wrap html or php-content into nice Xoops design.       //
+// email: wjue@wjue.org                                                      //
+// URLs: http://www.wjue.org,  http://www.guanxiCRM.com                      //
+// This program is based on the original work of Stefan "SibSerag" Oese      //
+//---------------------------------------------------------------------------//
+//  This program is free software; you can redistribute it and/or modify     //
+//  it under the terms of the GNU General Public License as published by     //
+//  the Free Software Foundation; either version 2 of the License, or        //
+//  (at your option) any later version.                                      //
+//                                                                           //
+//  This program is distributed in the hope that it will be useful,          //
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
+//  GNU General Public License for more details.                             //
+//---------------------------------------------------------------------------//
+//***************************************************************************//
+//* Caution: FreeContent v2.00 is NOT compatible with Xoops 1.3.x           *//
+//*          Use FreeContent 1.2 for that purpose                           *//
+//***************************************************************************//
+
+define('_FC_GREETING', 'FreeContent - Example File');
+define('_FC_EXAMPLE', 'Run admin to create a Content Connection to your content-file (e.g. your html or php file)');
+define('_FC_FILENOTFOUND', 'Sorry, we were unable to find this file:');
+define('_FC_IDNOTFOUND', 'Sorry, we were unable to find this Link-ID in our Database');
+define('_FC_WEBDIGEST', 'Webdigest');
+define('_FC_WEBDIGEST_PROMPT', 'This page is the instant Webdigest of');
+define('_FC_ENTER_URL_TOWEBDIGEST', 'Enter your URL<br> to Webdigest');
